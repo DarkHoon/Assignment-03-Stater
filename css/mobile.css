@@ -1,0 +1,121 @@
+@media only screen and (max-width: 767px) {
+  /* điều chỉnh nav bả */
+  .nav-item .nav-img {
+    display: none;
+  }
+
+  .container-nav {
+    display: block;
+  }
+
+  /* điều chỉnh thông tin cá nhân */
+  .container-personal {
+    display: block;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .info li {
+    font-size: 14px;
+  }
+
+  .submit-email input[type="email"],
+  .submit-email button {
+    width: 100%;
+  }
+
+  /* điều chỉnh phần học vấn kĩ năng kinh nghiệm v.v */
+  .container-job {
+    display: block;
+    margin: 20px;
+  }
+
+  .info-item {
+    margin-bottom: 10px;
+  }
+
+  /* điều chỉnh bố cục phần chứng chỉ */
+  .cert1_wrapper {
+    display: block;
+    border: none;
+  }
+
+  .cert1_border {
+    border: none;
+  }
+
+  .cert1 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #a86b1a;
+  }
+
+  /* điều chỉnh bố cục dự án */
+  .container-project {
+    display: block;
+  }
+
+  .project_item {
+    margin-bottom: 15px;
+  }
+
+  /* điều chỉnh bố cục footer */
+  .container-contact {
+    display: flex;
+    flex-direction: column; /* Đảm bảo các phần tử được xếp thành một cột */
+    align-items: center;
+  }
+
+  /* Mobile mode digitalcv */
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .goals .item-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team .list-icon .content-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team-text {
+    align-content: left;
+  }
+
+  .border-top {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+  }
+
+  .timeline-span {
+    float: left;
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  .scopes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .align-items-start {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item-content .content-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .primary-icon {
+    align-self: center;
+    margin-top: 20px;
+  }
+}

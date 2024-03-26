@@ -1,0 +1,86 @@
+@media only screen and (max-width: 993px) {
+  .nav-item .nav-img {
+    display: none;
+  }
+
+  /* .container-job {
+    display: flex;
+    flex-wrap: wrap;
+  } */
+
+  /* điều chỉnh bố cục cho phần kĩ năng, hoạt động, sở thích */
+  .container-job {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .job_info-time {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  /* điều chỉnh bố cục chứng chỉ */
+  .cert1 {
+    display: block;
+  }
+
+  .project-header h3 {
+    height: 90px;
+  }
+
+  .project-info .aaa {
+    flex: 0 0 20%;
+  }
+
+  /* Tablet mode digtal cv */
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .goals .item-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team .list-icon .content-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team-text {
+    align-content: left;
+  }
+
+  .border-top {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+  }
+
+  .timeline-span {
+    float: left;
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  .scopes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .align-items-start {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item-content .content-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .primary-icon {
+    align-self: center;
+    margin-top: 20px;
+  }
+}
